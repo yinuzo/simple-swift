@@ -1,0 +1,24 @@
+// If you want to do a Random Number Generator (In Swift), heres the code!
+
+// ---------------------------------------------
+
+ let randomNumber = Int.random(in: 1...2)
+        (YourLabel).text = String(randomNumber)
+
+// ---------------------------------------------
+
+// In (YourLabel) You will input the name of your previously created Label, to input the generated Number in.
+// eg. Label1.text
+
+// You can change the "1" and the "2" to whatever Numbers you like.
+
+
+// heres how it could look like:
+
+    @IBAction func Button1(_ sender: Any) {
+        
+        let randomNumber = Int.random(in: 1...2)
+        Label1.text = String(randomNumber)
+
+// ------------
+// -yinuzo
