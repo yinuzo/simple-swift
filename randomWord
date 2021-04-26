@@ -1,0 +1,28 @@
+// If you want to do a random Word picker (In Swift), heres the code!
+
+// ---------------------------------------------
+
+let array = ["Word1", "Word2"]
+        (YourLabel).text = array.randomElement()
+        
+// ---------------------------------------------
+
+// In (YourLabel) You will input the name of your previously created Label, to input the generated Word in.
+// eg. Label1.text
+
+// You can change the "Word1" and the "Word2" to whatever Words you like.
+// You can import more Words using the following scheme: 
+ 
+ ["Word1", "Word2", "Word3", "Word4"]
+ 
+// heres how it could look like:
+
+    @IBAction func Button1(_ sender: Any) {
+        
+        let array = ["Sheeesh", "Rickroll"]
+        Label1.text = array.randomElement()
+    
+    
+// ------------
+// made by yinuzo
+//-------------
