@@ -1,0 +1,22 @@
+// If you want to open a Link (in your App) (In Swift), heres the code!
+
+// ---------------------------------------------
+
+guard let url = URL(string: "https://YOUR.LINK") else { return }
+        UIApplication.shared.open(url)
+
+// ---------------------------------------------
+
+// In (https://YOUR.LINKl) You will input your Your Link, which should be opened
+// eg. https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+// heres how it could look like:
+
+    @IBAction func Button1(_ sender: Any) {
+        
+guard let url = URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ") else { return }
+        UIApplication.shared.open(url)
+
+// ------------
+// made by yinuzo
+//-------------
