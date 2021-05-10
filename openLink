@@ -7,7 +7,7 @@ guard let url = URL(string: "https://YOUR.LINK") else { return }
 
 // ---------------------------------------------
 
-// In (https://YOUR.LINKl) You will input your Your Link, which should be opened
+// In (https://YOUR.LINK) You will input your Your Link, which should be opened
 // eg. https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 // heres how it could look like:
